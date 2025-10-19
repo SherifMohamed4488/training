@@ -45,28 +45,28 @@ class WelcomeView extends StatelessWidget {
                       child: Align(
                         alignment: Alignment.topRight,
                         child: Container(
-                          width: 50.w,
-                          height: 40.h,
+                          width: 84.w,
+                          height: 41.h,
                           decoration: ShapeDecoration(
                               color: Colors.white.withValues(alpha: 0),
                               shape: RoundedRectangleBorder(
                                   side: BorderSide(width: 1),
                                   borderRadius: BorderRadius.circular(20.r))),
-                          child: Center(child: Text(" Skip " , style: Styles.style15ArimoRegular.copyWith(fontSize: 10.sp),)),
+                          child: Center(child: Text(" Skip " , style: Styles.style15ArimoRegular.copyWith(fontSize: 16.sp),)),
                         ),
                       ),
                     ),
                     Spacer()  ,
-                    Text("Welcome To",style : Styles.style36ArimoBold .copyWith(fontSize: 16.sp,color: Color(0xffFFFFFF))),
-                    Text("Fashion", style: Styles.style36ArimoBold.copyWith( color:Color(0xffFFFFFF)  , fontSize: 16.sp) ),
+                    Text("Welcome To",style : Styles.style36ArimoBold .copyWith(fontSize: 36.sp,color: Color(0xffFFFFFF))),
+                    Text("Fashion", style: Styles.style36ArimoBold.copyWith( color:Color(0xffFFFFFF)  , fontSize: 36.sp) ),
                     SizedBox(height: 18.h),
                     Text(
                         "Discover the latest trends and exclusive styles",
-                        style: Styles.style14ArimoRegular.copyWith(height : 1.1 ,color: Color(0xffFFFFFF) , fontSize: 6.sp)),
+                        style: Styles.style14ArimoRegular.copyWith(height : 1.1 ,color: Color(0xffFFFFFF) , fontSize: 14.sp)),
 
                     Text(
                       " from our top designers",
-                      style: Styles.style14ArimoRegular.copyWith(height: 1 ,fontSize: 6.sp,color: Color(0xffFFFFFF)),
+                      style: Styles.style14ArimoRegular.copyWith(height: 1 ,fontSize: 14.sp,color: Color(0xffFFFFFF)),
                     ),
                     SizedBox(height: 25.h ,),
                     Align(

@@ -30,9 +30,9 @@ class ShapeOfForwardBottom extends StatelessWidget {
    //   scaleHeight = minScaleHeight;
    // }
    return Container(
-      width:20.w ,
-      height: 20.h,
-      child: Center(child: Icon(Icons.arrow_forward_ios , size: 10.sp, color: Color(0xffFFFFFF),)),
+      width:55.w ,
+      height: 55.h,
+      child: Center(child: Icon(Icons.arrow_forward_ios , size: 25.sp, color: Color(0xffFFFFFF),)),
       decoration: ShapeDecoration(
         color:Colors.orange ,
         shape: OvalBorder(),
